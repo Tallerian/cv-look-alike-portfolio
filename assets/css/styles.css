@@ -1,0 +1,66 @@
+body{
+  background: #0C151D;
+}
+
+.container{
+  
+  width: 975px;
+  height: 1153px;
+  
+  margin: auto;
+}
+
+.myprofile_container{
+  width: 100%;
+  height: 220px;
+  
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.myprofile{
+  background-image: url(/assets/img/hero.jpg);
+  background-size: cover;
+  object-fit: cover;
+  width: 156px;
+  height: 158px;
+  border: 4px solid #41A8FC;
+  border-radius: 80px;
+  filter: brightness(80%);
+
+  display: flex;
+  justify-content: center;
+}
+
+
+.ml10 {
+  position: relative;
+  font-weight: 400;
+  font-size: 1.8em;
+  font-family: 'Public Sans', sans-serif;
+  font-family: 'Share Tech', sans-serif;
+  text-align: left;
+
+  padding-left: 20px;
+  max-width: 500px;
+  color: #FFFFFF;
+}
+
+.ml10 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml10 .myprofile-text {
+  display: inline-block;
+  line-height: 1em;
+  transform-origin: 0 0;
+}
+

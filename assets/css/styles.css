@@ -10,16 +10,16 @@ body{
   margin: auto;
 }
 
+/*---------------- my profile container ------------*/
+
 .myprofile_container{
   width: 100%;
   height: 220px;
-  
 
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 
 .myprofile{
   background-image: url(/assets/img/hero.jpg);
@@ -47,6 +47,11 @@ body{
   padding-left: 20px;
   max-width: 500px;
   color: #FFFFFF;
+
+  min-width: 500px;
+  
+  margin-left: 30px;
+  background-color: none;
 }
 
 .ml10 .text-wrapper {
@@ -62,5 +67,47 @@ body{
   display: inline-block;
   line-height: 1em;
   transform-origin: 0 0;
+}
+
+.icon-links{
+  display: flex;
+  justify-content: space-between;
+  color:white;
+  height: 25px;
+  width: 200px;
+  margin: auto;
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
+.ico_circle{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  box-shadow: 5px 5px 30px 5px #1C3245;
+
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
+.ico_circle:hover {
+  width: 70px;
+  box-shadow: 0px 0px 10px 3px rgba(255,255,255,0.39);
+  opacity: 0.85;
+  transition: 0.3s;
+}
+
+.icon{
+  padding-top: 5px;
 }
 

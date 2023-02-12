@@ -2,9 +2,14 @@ let api_url = null
 
 //Wrap every letter in a span
 var hello = document.getElementById('myprofile-text')
+
+const cont_css = document.getElementById('desc_text')
+const styles = window.getComputedStyle(cont_css, '::before');
+var proj_text1 = styles.content
+console.log(proj_text1)
+
 var project_text1 = document.getElementById('proj_text')
 const phrases = ['Hello my name is Ian Ruvuto Kampwanyi', 'Welcome to my CV-Look-Alike Portfolio ']
-const proj_text1 = "This is a React Native app project This is a React Native app project This is a React Native app project"
 
 var i = 0
 var j = 0
@@ -51,7 +56,7 @@ function loop_project_text(){
     return
   }
   count++
-  setTimeout(loop_project_text, 40)
+  setTimeout(loop_project_text, 30)
 }
 
 function translate_eng(text_edit, lang){
